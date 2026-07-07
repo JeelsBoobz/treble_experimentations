@@ -10,12 +10,12 @@ if [ -z "$USER" ];then
 fi
 export LC_ALL=C
 
-manifest_url="https://android.googlesource.com/platform/manifest"
-aosp="android-13.0.0_r73"
-phh="android-13.0"
+manifest_url="https://github.com/ProjectSakura/android"
+aosp="16.3"
+phh="android-16.0"
 
 build_target="$1"
-manifest_url="https://android.googlesource.com/platform/manifest"
+manifest_url="https://github.com/ProjectSakura/android
 
 if [ "$build_target" = "android-14.0" ];then
     aosp="android-14.0.0_r37"
