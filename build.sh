@@ -15,7 +15,7 @@ aosp="16.3"
 phh="android-16.0"
 
 build_target="$1"
-manifest_url="https://github.com/ProjectSakura/android
+manifest_url="https://github.com/ProjectSakura/android"
 
 if [ "$build_target" = "android-14.0" ];then
     aosp="android-14.0.0_r37"
