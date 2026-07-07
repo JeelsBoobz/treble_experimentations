@@ -41,7 +41,7 @@ if [ -d .repo/local_manifests ] ;then
 else
 	git clone https://github.com/TrebleDroid/treble_manifest .repo/local_manifests -b $phh
 fi
-repo sync -c -j 1 --force-sync || repo sync -c -j1 --force-sync
+# repo sync -c -j 1 --force-sync || repo sync -c -j1 --force-sync
 
 (cd device/phh/treble; git clean -fdx; bash generate.sh)
 
